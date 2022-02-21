@@ -23,6 +23,7 @@ class CreateTrainsTable extends Migration
             $table->date('arrival_time');
             $table->boolean('in_time');
             $table->boolean('cancelled');
+            $table->timestamps();
         });
     }
 
